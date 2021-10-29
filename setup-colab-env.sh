@@ -40,7 +40,7 @@ EOL
 
 
 # Clone the Optech Taproot Workshop and setup the config.ini + enviroment.
-git clone -q https://github.com/bitcoinops/taproot-workshop.git
+git clone -q -b colab-update2 https://github.com/mmilata/taproot-workshop.git
 cp /content/taproot-workshop/util.py /content
 cp /content/taproot-workshop/requirements.txt /content
 cp /content/taproot-workshop/config.ini /content
