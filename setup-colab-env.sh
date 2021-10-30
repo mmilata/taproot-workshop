@@ -31,7 +31,7 @@ RPCAUTH=/content/bitcoin/share/rpcauth/rpcauth.py
 
 [components]
 # Which components are enabled. These are commented out by configure if they were disabled when running config.
-#ENABLE_WALLET=true
+ENABLE_WALLET=true
 #ENABLE_CLI=true
 ENABLE_BITCOIND=true
 #ENABLE_FUZZ=true
